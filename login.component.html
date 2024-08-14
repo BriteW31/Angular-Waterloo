@@ -1,0 +1,13 @@
+<div class="login-container" id="container">
+  <div *ngIf="1===1" class="box">
+    <div class="login">
+      <img width="300" src="https://uwaterloo.ca/brand/sites/ca.brand/files/styles/body-500px-wide/public/uploads/images/logo-horizontal-.jpg?itok=ZJxFDtnU" />
+      <h3>Sign in with your organizational account</h3>
+      <form (submit)="onNext()">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="username@uwaterloo.ca">
+        <button type="submit" class="btn btn-signin">Next</button>
+      </form>
+    </div>
+  </div>
+</div>
